@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #374151;
+    font-family: 'Barlow', sans-serif;
+}
+
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 15px 0;
+}
