@@ -5,12 +5,14 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "build": "electron-packager .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Japo",
   "license": "ISC",
   "dependencies": {
-    "electron": "^22.0.2"
+    "electron": "^22.0.2",
+    "electron-packager": "^17.1.1"
   }
 }
